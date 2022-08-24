@@ -6,12 +6,9 @@ import State3 from './Components/State3';
 function App() {
     return (
         <div>
-
             {/* <State2/> */}
 
             <State3/>
-
-
             </div>
     )
 }

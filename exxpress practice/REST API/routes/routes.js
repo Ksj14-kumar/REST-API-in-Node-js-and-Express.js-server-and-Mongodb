@@ -2,14 +2,9 @@ const express = require('express');
 const router= express.Router()
 const Post = require("../Modal/post")
 const app= express()
-
-
 app.use((err)=>{
     console.log(`middleware is called at ${Date.now()}`)
 })
-
-
-
 router.get("/",async(req,res)=>{
     // res.send("this is Home page ")
     try{
